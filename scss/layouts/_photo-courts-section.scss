@@ -1,0 +1,23 @@
+.photo-courts-section {
+  &__image {
+    padding: 25px 20px;
+    border: 1px solid var(--color-sub-accent);
+    position: relative;
+  }
+
+  &__button {
+    position: absolute;
+    left: 90px;
+    bottom: 75px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    color: var(--color-white);
+    background-color: var(--color-accent);
+
+    &:hover {
+      background-color: #6759de;
+    }
+  }
+}

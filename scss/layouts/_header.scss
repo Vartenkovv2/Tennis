@@ -1,0 +1,17 @@
+.header {
+  padding: 35px;
+  align-items: center;
+  border-bottom: 1px solid var(--color-white);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+

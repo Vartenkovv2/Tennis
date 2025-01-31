@@ -1,0 +1,49 @@
+.description-about-section {
+  &__img {
+    width: 528px;
+    height: 514px;
+    position: absolute;
+    top: 70px;
+  }
+
+  &__text-item{
+    margin-bottom: 15px;
+    font-size: 14px;
+font-weight: 400;
+  }
+
+  &__block{
+    position: relative;
+    right: -34%;
+    background-color: var(--color-sub-accent);
+    padding: 70px 60px 84px 146px;
+    z-index: -1;
+  }
+
+  &__content{
+    width: 650px;
+  }
+
+  &__menu{
+    display: flex;
+  }
+
+  &__item {
+    display: flex;
+    gap: 17px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    flex: 1;
+    
+    &:nth-of-type(2){
+      flex: 1.5;
+    }
+  }
+
+  &__number{
+    width: 35px;
+    height: 45px;
+  }
+
+}

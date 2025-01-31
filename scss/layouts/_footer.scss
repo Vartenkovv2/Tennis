@@ -1,0 +1,14 @@
+.footer {
+  background-color: var(--color-sub-accent);
+  padding: 30px 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item--black {
+    color: var(--color-text);
+  }
+}

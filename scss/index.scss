@@ -1,0 +1,28 @@
+@import "./utils/variables";
+@import "./utils/fonts";
+@import "./base";
+
+@import "./blocks/links";
+@import "./blocks/menu";
+@import "./blocks/top";
+@import "./blocks/smaller-container";
+
+@import "./components/title";
+@import './components/subtitle';
+
+@import "./layouts/header";
+@import "./layouts/header-news";
+@import "./layouts/header-about";
+@import "./layouts/main-section";
+@import "./layouts/advantages-section";
+@import "./layouts/description-section";
+@import "./layouts/trainers-section";
+@import "./layouts/offers-section";
+@import "./layouts/footer";
+
+@import "./layouts/photo-courts-section";
+@import './layouts/description-about-section';
+@import './layouts/rules-section';
+
+@import "./layouts/news-top-section";
+@import "./layouts/news-main-section";
